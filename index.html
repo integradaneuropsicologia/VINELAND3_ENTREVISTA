@@ -755,7 +755,7 @@ $("#form").addEventListener("submit", async (e)=>{
       total: total,
       categoria: categoria_csv,
       metrics: "",
-      questions: qaText, // <- TODAS AS PERGUNTAS + RESPOSTAS
+      questions: "",
       
     };
     await sheetCreate(SHEETS.SCORES, rowPayload);
